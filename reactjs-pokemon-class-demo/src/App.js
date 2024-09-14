@@ -8,6 +8,9 @@ class App extends React.Component {
   render(){
     return (
       <div className="App">
+
+      <h1>{process.env.REACT_APP_EXAMPLE_ENV}</h1>
+
                 <PokemonFetcher />
                 {/* <PokemonFetcher />
                 <PokemonFetcher />
